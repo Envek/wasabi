@@ -3,11 +3,11 @@ $:.push File.expand_path("../lib", __FILE__)
 require "wasabi/version"
 
 Gem::Specification.new do |s|
-  s.name        = "wasabi"
+  s.name        = "wasabi_with_adapter"
   s.version     = Wasabi::VERSION
   s.authors     = ["Daniel Harrington"]
   s.email       = ["me@rubiii.com"]
-  s.homepage    = "https://github.com/savonrb/#{s.name}"
+  s.homepage    = "https://github.com/savonrb/wasabi/pull/44"
   s.summary     = "A simple WSDL parser"
   s.description = s.summary
 
